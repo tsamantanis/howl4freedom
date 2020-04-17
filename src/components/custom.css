@@ -1,0 +1,33 @@
+.header {
+    background: #080808;
+    margin-bottom: 1.45rem;
+    align-items: center;
+}
+
+.header-styles {
+      max-width: 960;
+      padding: 1.45rem 1.45rem;
+      /* margin-left: 35%; */
+      text-align: center;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.text-center {
+    /* align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: -50%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.width-responsive {
+    width: 50%;
+}

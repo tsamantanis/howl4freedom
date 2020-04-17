@@ -1,3 +1,5 @@
+@import './custom.css';
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -61,7 +63,7 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
+  font-size: 3em;
   margin: 0.67em 0;
 }
 mark {
@@ -234,7 +236,7 @@ h1 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 3rem;
   line-height: 1.1;
 }
 h2 {
@@ -385,6 +387,7 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  font-weight: 600;
 }
 figure {
   margin-left: 0;
@@ -618,5 +621,17 @@ pre tt:after {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+
+  .text-center {
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+  }
+
+  p {
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
   }
 }
