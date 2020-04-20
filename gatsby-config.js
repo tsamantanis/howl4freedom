@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Howl For Freedom`,
-    description: `A short poem aiming to motivate individuals to openly discuss and advocate for their personal freedom within society`,
+    description: `A poem aiming to motivate individuals to openly discuss and advocate for their personal freedom within society`,
     author: `Philippos Tsamantanis`,
   },
   plugins: [

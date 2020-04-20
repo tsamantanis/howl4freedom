@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Howl For Freedom" />
+        <SEO title="Howl For Freedom | A short poem aiming to motivate individuals to openly discuss and advocate for their personal freedom within society" />
         <div className="text-center width-responsive">
             <p>Recently I attended a graduation ceremony</p>
             <p>An exciting event, and the industry's most valuable sanctimony.</p>
